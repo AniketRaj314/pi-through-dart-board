@@ -14,14 +14,8 @@ function draw() {
     for (let i = 0; i < 10; i++) {
         background(0);
         drawBoard();
-        fill(255, 0, 0)
-        ellipse(width / 2 + 100, height / 2 - 150, 20, 20);
-        ellipse(width / 2 + 350, height / 2 - 50, 20, 20);
-        fill(0, 0, 255);
-        ellipse(width / 2 + size / 2 - 30, height / 2 - 220, 20, 20);
-        ellipse(width / 2 + 350, height / 2 + 50, 20, 20);
-        // drawDots();
-        // showStats();
+        drawDots();
+        showStats();
     }
 }
 
